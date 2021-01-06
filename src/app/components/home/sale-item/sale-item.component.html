@@ -1,7 +1,7 @@
 <div class="item">
   <p>{{ item.name }}</p>
-  <span class="salepill" *ngIf="item.sale">Sale</span>
+  <span class="salepill" *ngIf="item.sale">İNDİRİM</span>
   <img [src]="'assets/img/'.concat(item.img)" [alt]="item.name" />
-  <p>${{ item.price }}</p>
-  <button class="add" (click)="addtoCart(item)">Add Item</button>
+  <p>{{ item.price }} TL</p>
+  <button class="add" (click)="addtoCart(item)">Sepete Ekle</button>
 </div>

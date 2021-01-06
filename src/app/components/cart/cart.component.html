@@ -6,8 +6,8 @@
         <h4>{{ item.name }}</h4>
         <p>{{ item.price }} x {{ item.count || 1 }}</p>
         <p>
-          Total for this item:
-          <strong>${{ item.price * (item.count || 1) }}</strong>
+          Sepet tutarınız:
+          <strong>TL{{ item.price * (item.count || 1) }}</strong>
         </p>
       </div>
       <img
@@ -17,7 +17,7 @@
       />
     </div>
     <div class="total">
-      <h3>Total: ${{ cartTotal | number }}</h3>
+      <h3>Toplam: TL{{ cartTotal | number }}</h3>
     </div>
   </div>
 </div>

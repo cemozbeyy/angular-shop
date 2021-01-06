@@ -78,7 +78,7 @@ export class DataService {
     return [
       {
         id: 1,
-        name: 'Khaki Suede Polish Work Boots',
+        name: 'Kahve rengi bot',
         price: 149.99,
         category: 'women',
         sale: true,
@@ -87,7 +87,7 @@ export class DataService {
       },
       {
         id: 2,
-        name: 'Camo Fang Backpack Jungle',
+        name: 'Kazak',
         price: 39.99,
         category: 'women',
         sale: false,
@@ -96,7 +96,7 @@ export class DataService {
       },
       {
         id: 3,
-        name: 'Parka and Quilted Liner Jacket',
+        name: 'Kışlık mont',
         price: 49.99,
         category: 'men',
         sale: true,
@@ -114,7 +114,7 @@ export class DataService {
       },
       {
         id: 5,
-        name: 'Knit Sweater with Zips',
+        name: 'Kazak',
         price: 29.99,
         category: 'women',
         sale: false,
@@ -123,7 +123,7 @@ export class DataService {
       },
       {
         id: 6,
-        name: 'Long Linen-blend Shirt',
+        name: 'Gömlek',
         price: 18.99,
         category: 'men',
         sale: false,
@@ -132,7 +132,7 @@ export class DataService {
       },
       {
         id: 7,
-        name: 'Knit Orange Sweater',
+        name: 'Turuncu Kazak',
         price: 28.99,
         category: 'men',
         sale: false,
@@ -141,7 +141,7 @@ export class DataService {
       },
       {
         id: 8,
-        name: 'Cotton Band-collar Blouse',
+        name: 'İş Gömleği',
         price: 49.99,
         category: 'men',
         sale: false,
@@ -150,7 +150,7 @@ export class DataService {
       },
       {
         id: 9,
-        name: 'Camo Fang Backpack Jungle',
+        name: 'Asker Desenli Gömlek',
         price: 59.99,
         category: 'women',
         sale: true,
@@ -168,7 +168,7 @@ export class DataService {
       },
       {
         id: 11,
-        name: 'Spotted Patterned Sweater',
+        name: 'Yeşil Lastikli Kazak',
         price: 80.99,
         category: 'women',
         sale: false,
@@ -177,7 +177,7 @@ export class DataService {
       },
       {
         id: 12,
-        name: 'Double Knit Sweater',
+        name: 'Örgülü Kazak',
         price: 59.99,
         category: 'men',
         sale: true,
